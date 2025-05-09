@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Professional Links</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <style>
+   </style>
+</head>
+<body>
+  <header>
+    <img id="profile-pic" src="https://plus.unsplash.com/premium_photo-1689606093808-3cb4393248d2?w=400&auto=format&fit=crop&q=60" alt="Profile Picture"/>
+    <h1>Hello, I'm Steve Keago</h1>
+    <p>UX Designer & Developer creating intuitive digital experiences that delight users and drive business results.</p>
+  </header>
+
+  <div class="content">
+    <img id="small-profile-pic" src="https://plus.unsplash.com/premium_photo-1689606093808-3cb4393248d2?w=400&auto=format&fit=crop&q=60" alt="Small Profile Pic"/>
+
+    
+    <a href="https://yourwebsite.com" target="_blank" class="website-card">
+      <div class="website-preview"></div>
+      <div class="website-info">
+        <h3>My Portfolio Website</h3>
+        <p>Explore my latest projects and design work</p>
+        <div class="website-link">Visit Site</div>
+      </div>
+    </a>
+
+    
+    <div class="link-container">
+      <a href="https://facebook.com/yourprofile" target="_blank" class="social-link">
+        <i class="fab fa-facebook-f"></i>
+        <span>Facebook</span>
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+      <a href="https://x.com/meeee_iss_coool" target="_blank" class="social-link">
+        <i class="fab fa-twitter"></i>
+        <span>Twitter</span>
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+      <a href="https://www.instagram.com/steve_ke.1" target="_blank" class="social-link">
+        <i class="fab fa-instagram"></i>
+        <span>Instagram</span>
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/steve-keago-90a157256/" target="_blank" class="social-link">
+        <i class="fab fa-linkedin-in"></i>
+        <span>LinkedIn</span>
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+      <a href="https://tiktok.com/@yourprofile" target="_blank" class="social-link">
+        <i class="fab fa-tiktok"></i>
+        <span>TikTok</span>
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+      <a href="https://wa.me/1234567890" target="_blank" class="social-link">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span>
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+
+    <!-- Professional Info Grid -->
+    <div class="info-grid">
+      <div class="info-card">
+        <i class="fas fa-user"></i>
+        <h3>About Me</h3>
+        <p>UX Developer  with 5+ years of experience creating user-centered digital products.</p>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-phone"></i>
+        <h3>Contact</h3>
+        <p><a href="tel:+1234567890">+254 759 488117</a><br>Available 9AM-5PM</p>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-envelope"></i>
+        <h3>Email</h3>
+        <p><a href="mailto:keagosteve@gmail.com">keagosteve@gmail.com</a><br>Response within 24 hours</p>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Location</h3>
+        <p>Nairobi, Kenya<br>Available for remote work</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Let's connect and create something amazing together</p>
+    <div class="social-media">
+      <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/meeee_iss_coool" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/steve_ke.1/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="//www.linkedin.com/in/steve-keago-90a157256/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/developerstevekeago" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="copyright">
+      &copy; 2023 Steve Keago. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    const headerImage = document.getElementById('profile-pic');
+    const smallImage = document.getElementById('small-profile-pic');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        headerImage.style.width = '100px';
+        headerImage.style.height = '100px';
+        smallImage.style.display = 'block';
+      } else {
+        headerImage.style.width = '200px';
+        headerImage.style.height = '200px';
+        smallImage.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
